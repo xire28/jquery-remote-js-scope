@@ -20,7 +20,7 @@
         if (options.scope) {
             requests[id] = options.scope
             if (options.data instanceof window.FormData) {
-                options.data.append(paramName, request_id)
+                options.data.append(name, id)
             } else {
                 switch ($.type(options.data)) {
                     case 'string':
