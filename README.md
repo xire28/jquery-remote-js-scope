@@ -35,7 +35,7 @@ $.ajax({
 
 - The plugin will automatically add a new parameter to the request `ajax_request_id`
 
-3. Access the scope from the remote js response (erb.js)
+## Access the scope from the remote js response (erb.js)
 ```
 (function($){
 	var fileInfoNodes = $('<%= escape_javascript(render partial: 'file_info', collection: file_infos, as: :file_info) %>'),
