@@ -19,7 +19,7 @@
     $(document).ajaxSend(function(e, request, options) {
         if (options.scope) {
             requests[id] = options.scope
-            if (options.data instanceof window.FormData) {
+            if (window.FormData && options.data instanceof window.FormData) {
                 options.data.append(name, id)
             } else {
                 switch ($.type(options.data)) {
