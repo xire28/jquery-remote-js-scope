@@ -1,0 +1,30 @@
+{
+  "name": "jquery-remote-js-scope",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xire28/jquery-remote-js-scope",
+  "authors": [
+    "Pagliaro Alexandre <pagliaro.alexandre@hotmail.com>"
+  ],
+  "description": "Provide a simple way to pass variables to a remote js response",
+  "main": "jquery-remote-js-scope.min.js",
+  "dependencies": {
+    "jquery": ">1.8.*"
+  },
+  "keywords": [
+    "jquery",
+    "remote",
+    "js",
+    "ajax",
+    "variables",
+    "scope",
+    "locals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
