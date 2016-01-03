@@ -9,7 +9,7 @@ Provide a simple way to pass variables to a remote js response
 ### Using Bower
 
 ```
-bower install behavior-jquery-remote-js-scope --save
+bower install jquery-remote-js-scope --save
 ```
 
 ### Using Bundler
