@@ -43,7 +43,7 @@ $.ajax({
 		scope = $.requests[ajaxRequestID]
 
 	scope.uploadRequest.progress(function(e){
-		var percentage = (e.loaded / e.total) * 100
+		var percentage = e.loaded / e.total
 
 		//Update all progressbar values
 		fileInfoNodes.find('progress').val(percentage)
