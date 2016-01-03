@@ -1,6 +1,6 @@
 /**
 /* ===================================================
- *  jquery-remote-js-scope.js v1.0.0
+ *  jquery-remote-js-scope.js v1.0.1
  *  https://github.com/xire28/jquery-remote-js-scope
  * ===================================================
  * 
@@ -24,7 +24,7 @@
             } else {
                 switch ($.type(options.data)) {
                     case 'string':
-                        options.data += '&' + name + '=' + id;
+                        options.data += ((options.data === '')? '' : '&') + name + '=' + id;
                         break;
                     case 'object':
                         options.data[name] = id;
